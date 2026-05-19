@@ -20,13 +20,13 @@ The calibrated fusion is evaluated with TCN, Transformer, Conv-Transformer and U
 
 ```text
 .
-├── configs/        # Optional configuration files
 ├── data/           # Placeholder for local LADS data, not included
 ├── notebooks/      # Final analysis / figure-generation notebooks
 ├── outputs/        # Generated results, ignored by Git
 ├── scripts/        # Training, evaluation and utility scripts
 ├── src/            # Reusable source code
 ├── README.md
+├── requirements.txt
 └── .gitignore
 ```
 
@@ -212,7 +212,7 @@ jupyter
 A minimal installation can be done with:
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn torch jupyter
+pip install requirements.txt
 ```
 
 Depending on the server or local machine, PyTorch may need to be installed following the official instructions for the available CUDA version.
