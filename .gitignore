@@ -1,0 +1,47 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE/editor files
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+logs/
+nohup.out
+
+# Large or generated outputs
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.pkl
+*.pickle
+*.joblib
+
+# Data
+data/LADS/
+data/raw/
+data/interim/
+data/processed/
+*.dat
+*.fits
+*.fits.gz
+*.csv.gz
+
+# Temporary files
+tmp/
+temp/
+*.tmp
