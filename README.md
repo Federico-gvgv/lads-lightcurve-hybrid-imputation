@@ -212,7 +212,7 @@ jupyter
 A minimal installation can be done with:
 
 ```bash
-pip install requirements.txt
+pip install -r requirements.txt
 ```
 
 Depending on the server or local machine, PyTorch may need to be installed following the official instructions for the available CUDA version.
