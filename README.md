@@ -20,7 +20,7 @@ The calibrated fusion is evaluated with TCN, Transformer, Conv-Transformer and U
 
 ```text
 .
-├── data/           # Placeholder for local LADS data, not included
+├── data/           # LADS data, not included
 ├── notebooks/      # Final analysis / figure-generation notebooks
 ├── outputs/        # Generated results, ignored by Git
 ├── scripts/        # Training, evaluation and utility scripts
